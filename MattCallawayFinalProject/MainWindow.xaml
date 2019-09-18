@@ -1,0 +1,35 @@
+﻿<Window x:Class="MattCallawayFinalProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MattCallawayFinalProject"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1032.352" Width="1102.075" Background="#FFD6D3D7">
+    <Grid Margin="0,0,359.333,-18.667">
+
+        <Button x:Name="tunerButton" Content="Tune Guitar" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="217" Margin="784,0,-303,917" Height="87" FontSize="25" Click="newTunerButtonClick" Grid.Column= "1" Background="#FF8AB671"/>
+        <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="901,317,-289,0"/>
+        <TextBox HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" VerticalAlignment="Top" Width="634" Margin="71,35,0,0" Panel.ZIndex="3"/>
+        <TextBox HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" VerticalAlignment="Top" Width="634" Margin="71,67,0,0" Panel.ZIndex="3"/>
+        <Button x:Name="tunerButton_Copy1" Content="New Blank Sheet" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="217" Margin="784,0,-265,662" Height="97" FontSize="25" Click="newBlankSheetButtonClick" Background="#FFADC8D1"/>
+        <Button x:Name="newBlankSheetButton" Content="Close" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="217" Margin="784,0,-303,96" Height="87" FontSize="25" Click="closeButtonClick" Background="#FFFE754A"/>
+        <Canvas x:Name="canvas" HorizontalAlignment="Left" Height="1012" VerticalAlignment="Top" Width="1097" Margin="0,0,-399,0"            MouseLeftButtonDown="CanvasMouseLeftButtonDown"
+            MouseLeftButtonUp="CanvasMouseLeftButtonUp"
+            MouseMove="CanvasMouseMove">
+            <Image x:Name="sheetImage" Height="1032" Width="724" Panel.ZIndex="-1"/>
+            <Button Content="Add a Note" Click="AddButtonClick" FontSize="25" Height="90" Canvas.Left="784" Canvas.Top="382" Width="217" Background="#FFADC8D1"/>
+            <TextBox HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" VerticalAlignment="Top" Width="634" Panel.ZIndex="3" Canvas.Left="71" Canvas.Top="529"/>
+            <TextBox HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" VerticalAlignment="Top" Width="634" Panel.ZIndex="3" Canvas.Left="71" Canvas.Top="756"/>
+            <TextBox HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" VerticalAlignment="Top" Width="634" Panel.ZIndex="3" Canvas.Left="71" Canvas.Top="868"/>
+            <TextBox HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" VerticalAlignment="Top" Width="634" Panel.ZIndex="3" Canvas.Left="71" Canvas.Top="974"/>
+        </Canvas>
+        <TextBox HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" VerticalAlignment="Top" Width="634" Margin="71,300,0,0" Panel.ZIndex="3"/>
+        <TextBox HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" VerticalAlignment="Top" Width="634" Margin="71,416,0,0" Panel.ZIndex="3"/>
+        <TextBox HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" VerticalAlignment="Top" Width="634" Margin="71,647,0,0" Panel.ZIndex="3"/>
+
+
+    </Grid>
+
+
+</Window>

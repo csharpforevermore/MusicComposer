@@ -1,0 +1,3 @@
+My final project application is a sheet music editor, a user can upload image files of any note they would like and move them across the window to a designated location. There is also a tuner included which will open a new window and play whatever note they would like. 
+
+The hardest part was getting the drag and drop functionality to work properly.
