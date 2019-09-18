@@ -26,7 +26,7 @@ namespace MattCallawayFinalProject
             BitmapImage theBitmap = new BitmapImage();
 
             theBitmap.BeginInit();
-
+            // y
             String basePath = System.IO.Path.Combine(Environment.CurrentDirectory, @"assets\");
 
             String path = System.IO.Path.Combine(basePath, @"images\wood.jpg");
